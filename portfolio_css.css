@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+
+  background-image: url("gradient-thumbnail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "League Spartan", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+  background-color: transparent;
+  
+  color: white;
+}
+nav:hover {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+  background-color: rgba(255, 255, 255, 0.182);
+  color: white;
+  border-radius: 10px;
+}
+.left {
+  font-size: 3rem;
+  font-family: "Freestyle script", cursive;
+}
+.left:hover {
+  font-family: "Freestyle script", serif;
+  font-size: 3.5rem;
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+}
+.right {
+  font-family: "Titillium Web", sans-serif;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 25px;
+}
+nav ul li a {
+  font-family: "Freestyle script", serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: green;
+  font-size: 1.62rem;
+  font-family: "Freestyle script", serif;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px 0px;
+}
+.leftsection {
+  width: 40%;
+  font-family: "Bree Serif", serif;
+  font-size: 3rem;
+}
+.rightsection {
+  width: 30%;
+}
+.rightsection img {
+  width: 120%;
+  margin: 30px 0px;
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.name {
+  color: orange;
+  font-family: "Great Vibes", cursive;
+}
+#element {
+  color: orange;
+  font-family: "Bree Serif", serif;
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+}
+
+main hr {
+  border: 0;
+  background: orange;
+  height: 2px;
+  border-radius: 5px;
+  margin: 5vh 30px;
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.grey {
+  color: white;
+  font-size: 1rem;
+}
+
+.image-top {
+  width: 90px;
+  position: relative;
+  top: 15px;
+}
+footer {
+  background-color: #dacdea;
+  height: 100px;
+}
+.footer {
+  display: flex;
+  margin: 23px 122px 0px 122px;
+  padding: 10px 0px 0px 0px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Ropa Sans", sans-serif;
+  color: black;
+}
+.footer ul {
+  list-style: none;
+}
+.end {
+  background-color: #dacdea;
+  color: black;
+  font-size: 1rem;
+  padding: 10px 0px 10px 530px;
+}
+.logo {
+  height: 83px;
+  width: 103px;
+}
+.btn {
+  padding: 10px 10px;
+  background-image: url("bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ border:1px solid white ;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+.secondmain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p {
+  height: 350px;
+  width: 250px;
+  margin-top: 75px;
+  margin-left: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+  border-style: solid;
+  border-color: white;
+  background-color: #dd7a63;
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  background-image: url("bg4.png");
+  background-repeat: no-repeat;
+  filter: grayscale(70%);
+  filter: drop-shadow(8px 8px 10px gray);
+  text-align: center;
+ 
+}
+.p:hover {
+  transform: scale(1.4);
+  filter: grayscale(0%);
+
+}
+.div2 {
+
+  font-size: 1.5rem;
+  font-family: "Bree Serif", serif;
+  color: orange;
+  height: 80vh;
+}
+
+.div2 h1 {
+  font-size: 3rem;
+  font-family: "Bree Serif", serif;
+  color: orange;
+  margin-left: 150px;
+}
+.p img{
+  height: 150px;
+  width: 250px;
+}
+.p2 img{
+  height: 150px;
+  width: 170px;
+}
+.p3 img{
+  padding-top: 15px;
+  height: 140px;
+  width: 150px;
+}
+.p h1{
+  font-size: 20px;
+  margin: 0;
+  
+}
+.div3 {
+
+  font-size: 1.5rem;
+  font-family: "Bree Serif", serif;
+  color: orange;
+  height: 80vh;
+}
+.p22 img{
+  height: 150px;
+  width: 170px;
+}
+.div3 h1 {
+  font-size: 3rem;
+  font-family: "Bree Serif", serif;
+  color: orange;
+  margin-left: 150px;
+}
+.div3 .p h1{
+  font-size: 20px;
+  margin: 0;
+
+}
